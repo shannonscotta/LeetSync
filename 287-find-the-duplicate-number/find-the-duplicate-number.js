@@ -4,8 +4,6 @@
  */
 var findDuplicate = function(nums) {
 
-//[3,1,3,4,2]
-
 let numsSet = new Set();
 
 for (let i = 0; i < nums.length; i++){
