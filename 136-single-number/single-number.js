@@ -13,9 +13,6 @@ var singleNumber = function(nums) {
             hashMap.set(nums[i], nums[i]);
         }
     }
-   
-    let temp = hashMap.keys();
-    let result = [...temp];
-    return result;
-    
+
+    return [...hashMap.keys()];
 };
